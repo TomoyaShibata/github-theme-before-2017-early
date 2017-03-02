@@ -2,15 +2,6 @@ a {
     color: #4078c0;
 }
 
-.btn-primary {
-    color: #fff;
-    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
-    background-color: #6cc644;
-    background-image: -webkit-linear-gradient(#91dd70, #55ae2e);
-    background-image: linear-gradient(#91dd70, #55ae2e);
-    border: 1px solid #5aad35;
-}
-
 .commit-tease {
 	background-color: #f1f8ff;
 }
@@ -22,6 +13,28 @@ a {
 .full-commit .btn-outline:not(:disabled):hover {
 	color: #4078c0;
     border: 1px solid #4078c0;
+}
+
+.btn-primary {
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    background-color: #6cc644;
+    background-image: -webkit-linear-gradient(#91dd70, #55ae2e);
+    background-image: linear-gradient(#91dd70, #55ae2e);
+    border: 1px solid #5aad35;
+}
+
+.btn-primary:hover {
+    background-color: #55a532;
+    background-image: -webkit-linear-gradient(#85d063, #4f992f);
+    background-image: linear-gradient(#85d063, #4f992f);
+    border-color: #519d30;
+}
+
+.btn-primary:active, .btn-primary.selected, .btn-primary.zeroclipboard-is-active {
+    background-color: #4b912c;
+    background-image: none;
+    border-color: #417e26;
 }
 
 .branch-action-state-clean .branch-action-icon {
