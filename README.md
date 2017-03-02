@@ -1,7 +1,9 @@
-# github-theme-before-2017-early
+# [WIP]github-theme-before-2017-early
 
-[WIP]GitHub の色を2017 early chagned 以前のものに戻す CSS です。  
-気がついたところを直しているので不完全なところがあります。
+CSS to return GitHub of the theme to "2017 early update" before.
+
+It is incomplete because I fixed the place I noticed.  
+If you know the fix point, I'd like you to send me a pull request.
 
 # Extentions of change sytle for Google Chrome 
 
